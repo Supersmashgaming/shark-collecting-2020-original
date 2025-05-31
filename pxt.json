@@ -1,0 +1,39 @@
+{
+    "name": "Shark Collecting 2020 Original",
+    "version": "1.0.1",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "block-menu": "github:riknoll/arcade-custom-menu#v0.0.1",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "multiplayer": "*",
+        "microsoft-boot-sequence": "github:microsoft/pxt-microsoft-boot-sequence#v0.0.6",
+        "color-ssg-boot": "github:Supersmashgaming/color-ssg-boot#v1.0.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v0.15.18",
+        "tag": "v0.15.18",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/636055cd61c37ce9d6e5b103b3a1d34cddf11a69",
+        "target": "2.0.56",
+        "pxt": "5.30.44",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
