@@ -104,7 +104,7 @@ function setMenu () {
     blockMenu.setColors(8, 1)
     menuTitle = textsprite.create("Shark Collecting", 1, 15)
     menuTitle.setPosition(80, 25)
-    menuTitle2 = textsprite.create("Game by Lava Head Games", 1, 15)
+    menuTitle2 = textsprite.create("Game by supersmashgaming", 1, 15)
     menuTitle2.setPosition(80, 45)
 }
 sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, otherSprite) {
